@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include connectiongroup *.css
+recursive-include connectiongroup *.csv
+recursive-include connectiongroup *.html
+recursive-include connectiongroup *.ico
+recursive-include connectiongroup *.js
+recursive-include connectiongroup *.json
+recursive-include connectiongroup *.md
+recursive-include connectiongroup *.png
+recursive-include connectiongroup *.py
+recursive-include connectiongroup *.svg
+recursive-include connectiongroup *.txt
+recursive-exclude connectiongroup *.pyc
